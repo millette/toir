@@ -1321,7 +1321,7 @@ lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
 
-lodash@^4.0.0, lodash@^4.13.1, lodash@^4.2.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -1759,9 +1759,22 @@ riot-cli@^3.0.3:
     rollup "^0.51.2"
     shelljs "^0.7.8"
 
+riot-cli@millette/cli#preps:
+  version "3.0.4"
+  resolved "https://codeload.github.com/millette/cli/tar.gz/c8c2c28dc0c0faeee595bc4fece9dc7b41f1ff88"
+  dependencies:
+    chalk "^2.1.0"
+    chokidar "^1.7.0"
+    co "^4.6.0"
+    lodash "^4.17.4"
+    optionator "^0.8.2"
+    riot-compiler "^3.2.4"
+    rollup "^0.51.2"
+    shelljs "^0.7.8"
+
 riot-compiler@^3.2.4, riot-compiler@^3.2.6:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/riot-compiler/-/riot-compiler-3.3.0.tgz#1cbd2f9df67bcbd3c64f770bea9956013e4a8e97"
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/riot-compiler/-/riot-compiler-3.3.1.tgz#3f43081680680f4c0baa78b3f651ffaabe27c99d"
   dependencies:
     skip-regex "^0.3.1"
     source-map "^0.6.1"
